@@ -227,9 +227,9 @@ export default function Hero() {
                   }}
                 />
                 <img
-                  src="/photo.png"
+                  src="/Me.jpg"
                   alt="Mohamed Amine El Gaouej"
-                  className="w-full h-full object-cover scale-105 relative z-10"
+                  className="w-full h-full object-cover scale-85 relative z-10"
                 />
               </div>
             </motion.div>
