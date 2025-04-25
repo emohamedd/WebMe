@@ -30,6 +30,15 @@ const projects = [
     featured: true,
   },
   {
+    title: "Facilipro",
+    description:
+      "A platform that facilitates the process of connecting individuals from Morocco with opportunities in Canada. Features include user profiles, application tracking, and resource management.",
+    image: "/projects/facilipro.png",
+    tags: ["Next.js", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
+    codeLink: "https://www.facilipro.ma",
+    featured: true,
+  },
+  {
     title: "WEBSERVER",
     description:
       "Built an HTTP server from scratch using C++. Implemented request parsing, response generation, and CGI handling with a focus on performance and standards compliance.",
