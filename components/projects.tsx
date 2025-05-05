@@ -11,11 +11,11 @@ import { CustomAlert } from "@/components/ui/custom-alert"
 
 const projects = [
   {
-    title: "UM6P BookSmart (UBS)",
+    title: "CASAPUS - UM6P",
     description:
-      "A MERN-stack application for managing conference rooms and bookings at UM6P. Features include real-time availability, user authentication, and admin dashboard.",
-    image: "/projects/ubs.png",
-    tags: ["React", "Node.js", "MongoDB", "Express", "Socket.io"],
+      "A MERN-stack Platform for managing all UM6P Casablanca Services , including Access Management , Booking , Security, and more.",
+    image: "/projects/casapus.png",
+    tags: ["React", "Node.js", "MongoDB", "Express"],
     codeLink: "#",
     isPrivate: true,
     featured: true,
@@ -100,7 +100,7 @@ export default function Projects() {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-3xl font-bold tracking-tighter mb-4">Featured Projects</h2>
+            <h2 className="text-3xl font-bold tracking-tighter mb-4">Latest Projects</h2>
             <motion.div 
               className="w-16 h-1 bg-primary mx-auto mb-8 rounded-full"
               animate={{
