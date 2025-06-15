@@ -15,7 +15,7 @@ const projects = [
     description:
       "A MERN-stack Platform for managing all UM6P Casablanca Services , including Access Management , Booking , Security, and more.",
     image: "/projects/casapus.png",
-    tags: ["React", "Node.js", "MongoDB", "Express"],
+    tags: ["React", "Node.js", "MongoDB", "Express", "UI/UX"],
     codeLink: "#",
     isPrivate: true,
     featured: true,
@@ -34,9 +34,19 @@ const projects = [
     description:
       "A platform that facilitates the process of connecting individuals from Morocco with opportunities in Canada. Features include user profiles, application tracking, and resource management.",
     image: "/projects/facilipro.png",
-    tags: ["Next.js", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
+    tags: ["React.js", "Node.js", "MongoDB", "Express", "Tailwind CSS", "UI/UX", "Freelance"],
     codeLink: "https://www.facilipro.ma",
     featured: true,
+  },
+  {
+    title: "7or Zahra",
+    description:
+      "A modern, responsive website for a honey-selling business. Features product showcase, order form, and contact section. Built as a freelance project for a local entrepreneur.",
+    image: "/projects/7orzahra.png",
+    tags: ["Next.js", "React", "Tailwind CSS", "UI/UX", "Freelance"],
+    codeLink: "https://7or-zahra.vercel.app",
+    isPrivate: false,
+    featured: false,
   },
   {
     title: "WEBSERVER",
